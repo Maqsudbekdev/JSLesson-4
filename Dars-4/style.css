@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    margin-bottom: 30px;
+    display: none;
+    transition: .5s;
+    position: relative;
+    
+}
+#btn{
+    padding: 10px 30px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+
+    color: white;
+}
+.btn2{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    font-size: 15px;
+    /* display: none; */
+    
+    color: aliceblue;
+}
+.btn2:hover{
+    background-color: red;
+}
+
+.btn3{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 30px;
+}
+.btn3:hover{
+    background-color: rgb(53, 49, 49);
+}
+.btn3>div{
+    height: 17px;
+    width: 17px;
+    border: 1px solid white;
+}
+.btn4{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 60px;
+    
+}
+.btn4:hover{
+    background-color: rgb(53, 49, 49);
+}
+.btn4>div{
+    height: 1px;
+    width: 15px;
+    background-color: #fff;
+}
